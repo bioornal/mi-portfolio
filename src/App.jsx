@@ -1,7 +1,7 @@
 
 import './App.css'
-import Header from './components/Header/Header'
-import About from './Components/About/About'
+import Head from './Components/Head'
+
 // import Header from './components/Header/Header'
 // import Projects from './components/Projects/Projects'
 // import About from './components/About/About'
@@ -14,10 +14,9 @@ const App = () => {
   return (
     <div>
       {/* <Header /> */}
-    <Header />
       <main>
         <h1>wenas</h1>
-        <About />
+        <Head />
         {/* <About />
         <Projects />
         <Skills />
