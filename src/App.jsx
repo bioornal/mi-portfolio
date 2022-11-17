@@ -10,7 +10,7 @@ import './App.css'
 const App = () => {
   return (
     <div id='top'>
-      <Header />
+      {/* <Header /> */}
 
       <main>
         <About />
