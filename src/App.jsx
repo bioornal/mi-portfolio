@@ -1,5 +1,6 @@
 
 import './App.css'
+import Header from './components/Header/Header'
 // import Header from './components/Header/Header'
 // import Projects from './components/Projects/Projects'
 // import About from './components/About/About'
@@ -12,7 +13,7 @@ const App = () => {
   return (
     <div>
       {/* <Header /> */}
-
+    <Header />
       <main>
         {/* <About />
         <Projects />
