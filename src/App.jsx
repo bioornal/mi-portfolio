@@ -1,16 +1,16 @@
-// import Header from './components/Header/Header'
-import About from './components/About/About'
-import Projects from './components/Projects/Projects'
-import Skills from './components/Skills/Skills'
-import ScrollToTop from './components/ScrollToTop/ScrollToTop'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header.jsx'
+import About from './components/About/About.jsx'
+import Projects from './components/Projects/Projects.jsx'
+import Skills from './components/Skills/Skills.jsx'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop.jsx'
+import Contact from './components/Contact/Contact.jsx'
+import Footer from './components/Footer/Footer.jsx'
 import './App.css'
 
 const App = () => {
   return (
     <div id='top'>
-      {/* <Header /> */}
+      <Header />
 
       <main>
         <About />
