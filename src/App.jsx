@@ -2,6 +2,7 @@
 import './App.css'
 import Acerca from './Components/Acerca'
 import Head from './Components/Head'
+import Proyectos from './Components/Proyectos'
 
 // import Header from './components/Header/Header'
 // import Projects from './components/Projects/Projects'
@@ -19,6 +20,7 @@ const App = () => {
       <main>
         <h1>wenas</h1>
         <Acerca />
+        <Proyectos />
         {/* <About />
         <Projects />
         <Skills />
