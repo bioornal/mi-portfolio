@@ -2,3 +2,16 @@
   flex-direction: column;
   font-family: 'Jaldi', sans-serif;
 }
+.contact .btn--outline {
+  margin-right: 1em;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid rgb(58, 97, 182);
+  border-radius: 0;
+}
+.contact .btn--outline:hover {
+  background-color:rgb(58, 97, 182);
+  color: white;
+}

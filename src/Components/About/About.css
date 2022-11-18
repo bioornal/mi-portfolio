@@ -6,7 +6,7 @@
 
 .hola{
   color: rgb(44, 44, 44);
-  font-size: 75px;
+  font-size: 4rem;
 }
 .about__name {
   color: rgb(58, 97, 182);
@@ -15,10 +15,13 @@
 
 .about__role {
   margin-top: 1.2em;
+  margin-bottom: 0;
 }
 
 .about__desc {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   max-width: 600px;
 }
 
@@ -33,6 +36,16 @@
 
 .about .btn--outline {
   margin-right: 1em;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid rgb(58, 97, 182);
+  border-radius: 0;
+}
+.about .btn--outline:hover {
+  background-color:rgb(58, 97, 182);
+  color: white;
 }
 
 @media (max-width: 600px) {

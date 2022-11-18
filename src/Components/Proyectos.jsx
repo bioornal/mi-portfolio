@@ -9,7 +9,7 @@ function Proyectos() {
 
     return (
       <section id='projects' className='section projects'>
-        <h2 className='section__title'>Proyectos</h2>
+        <h2 className='section__title' style={{fontFamily:"Jaldi"}}>Proyectos</h2>
   
         <div className='projects__grid'>
           {projects.map((project) => (

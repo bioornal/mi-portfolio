@@ -21,7 +21,6 @@ const App = () => {
     <div>
         <Head />
       <main>
-        <h1>wenas</h1>
         <Acerca />
         <Proyectos />
         <Habilidades />
