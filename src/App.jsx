@@ -4,6 +4,7 @@ import Acerca from './Components/Acerca'
 import Contactos from './Components/Contactos'
 import Habilidades from './Components/Habilidades'
 import Head from './Components/Head'
+import Pie from './Components/Pie'
 import Proyectos from './Components/Proyectos'
 import ScrollArriba from './Components/ScrollArriba'
 
@@ -25,11 +26,9 @@ const App = () => {
         <Proyectos />
         <Habilidades />
         <Contactos />
-
       </main>
       <ScrollArriba />
-      {/* <ScrollToTop />
-      <Footer /> */}
+      <Pie />
     </div>
   )
 }
